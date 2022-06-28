@@ -20,9 +20,9 @@
     italic: Kaldkirjas
     ordered_list: Nummerdatud nimekiri
     preformatted_text: Eelvormindatud tekst
-    quote: Tsitaat: aste juurde
+    quote: "Tsitaat: aste juurde"
     strong: Rõhutatult
     underline: Allakriipsutatult
     unordered_list: Täpitud nimekiri
-    unquote: Tsitaat: aste madalamaks
+    unquote: "Tsitaat: aste madalamaks"
     wiki_link: Vikilehe link

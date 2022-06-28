@@ -1,4 +1,4 @@
-require_dependency 'bestest_markdown_editor/patches/markdown_helper_patch'
+require_dependency File.dirname(__FILE__) + '/lib/markdown_helper_patch'
 
 Redmine::Plugin.register :bestest_markdown_editor do
   name 'Bestest Markdown Editor'

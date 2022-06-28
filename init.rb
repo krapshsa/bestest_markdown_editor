@@ -1,4 +1,3 @@
-require_dependency 'bestest_markdown_editor/patches/application_helper_patch'
 require_dependency 'bestest_markdown_editor/patches/markdown_helper_patch'
 
 Redmine::Plugin.register :bestest_markdown_editor do

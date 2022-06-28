@@ -1,7 +1,7 @@
 require_dependency 'redmine/wiki_formatting/markdown/helper'
 
 module MarkdownHelperPatch
-    def wikitoolbar_for(field_id)
+    def wikitoolbar_for(field_id, preview_url = preview_text_path)
         super
         url = "#{Redmine::Utils.relative_url_root}/help/#{current_language.to_s.downcase}/wiki_syntax_markdown.html"
         javascript_tag("bestest_markdown_editor.helper('#{field_id}', '#{current_language.to_s}', '#{escape_javascript url}');")

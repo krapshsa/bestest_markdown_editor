@@ -23,3 +23,4 @@ module MarkdownHelperPatch
 end
 
 Redmine::WikiFormatting::Markdown::Helper.prepend(MarkdownHelperPatch)
+Redmine::WikiFormatting::CommonMark::Helper.prepend(MarkdownHelperPatch)

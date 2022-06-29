@@ -28,6 +28,12 @@ git pull
 
 The `master` branch tracks the latest stable release.
 
+### `v1.2` (2022-06-29)
+
+* Support Redmine 5
+* Update EasyMDE to 2.16.1
+* Fix estonian translation yaml syntax error
+
 ### `v1.1` (2018-07-29)
 
 * Support for syntax highlighting in code blocks.
